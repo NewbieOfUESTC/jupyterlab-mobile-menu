@@ -30,3 +30,4 @@ npm run build
 jupyter lab build
 ```
 
+# jupyterlab-mobile-menu

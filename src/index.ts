@@ -12,7 +12,10 @@ const extension: JupyterLabPlugin<void> = {
   id: 'jupyterlab-mobile-menu',
   autoStart: true,
   activate: (app: JupyterLab) => {
-    console.log('JupyterLab extension jupyterlab-mobile-menu is activated!');
+    $("filebrowser").on("tap",function(){
+      console.log('JupyterLab extension jupyterlab-mobile-menu is activated!');
+    })
+
   }
 };
 
